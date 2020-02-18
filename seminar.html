@@ -1,33 +1,39 @@
 ---
 layout: default
-section_id: publication
-services:
-  - icon_class: fa fa-trophy
-    title: Design
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
-  - icon_class: fa fa-compass
-    title: Art Direction
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
-  - icon_class: fa fa-star-half-empty
-    title: Branding
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
-  - icon_class: fa fa-image
-    title: Photography
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
-  - icon_class: fa fa-dot-circle-o
-    title: Marketing
-    desc: Placeat vel itaque perspiciatis sed repellat qui nihil recusandae doloremque aperiam necessitatibus aspernatur. illum ad adipisci saepe dolores cumque fugit nihil minus. temporibus corporis eos dolore reprehenderit ipsa at neque ab ut porro perferendis ex nihilillum ad adipisci saepe dolores cumque fugit nihil minus.
+section_id: seminar
 ---
 
 <div class="full">
   <div class="row">
     <div class="large-12 columns">
-      <h4 style="color: #999">Seminar</h4>
-      <h2>Updating...</h2>
+      <h2>Seminar</h2>
       <div class="spacing"></div>
-      <p>
-        Updating...
-      </p>
+
+      {% assign category = page.section_id %} {% for post in
+      site.categories[category] %}
+      <div class="big mod modBlogPost no_bg">
+        <div class="images">
+          {% for image in post.images %}
+          <div class="image"><img alt="" src="{{site.url}}/{{image}}" /></div>
+          {% endfor %}
+        </div>
+        <div class="content">
+          <p class="info">
+            <span>{{post.date | date: "%Y.%m.%d" }}</span>
+             {% if post.author %}
+             /
+            <span>
+              by
+              <a href="">{{post.author}}</a>
+            </span>
+            {% endif %}
+          </p>
+          <h4><a href="{{post.url}}"></a>{{post.title}}</a></h4>
+          <p class="excerpt">{{post.excerpt | strip_html }}</p>
+        </div>
+      </div>
+      <hr />
+      {% endfor %} {% include pagination.html root="news" %}
     </div>
   </div>
   <div class="three spacing"></div>

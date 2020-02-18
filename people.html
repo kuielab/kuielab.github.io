@@ -26,76 +26,157 @@ testimonials:
     avatar: images/@stock/author-avatar-3.png
 
 members:
-  - name: Updating
-    position: Updating
-    desc: Updating
-    avatar: images/@stock/member-1.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-  - name: Updating
-    position: Updating
-    desc: Updating
-    avatar: images/@stock/member-1.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-  - name: Updating
-    position: Updating
-    desc: Updating
-    avatar: images/@stock/member-1.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-  - name: Updating
-    position: Updating
-    desc: Updating
-    avatar: images/@stock/member-1.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
+  - name: 정순영 교수님
+    position: 고려대학교 이과대학 전산과학 박사
+    avatar: images/avatar/sunyoung-jeong.jpg
+    email: jsy@korea.ac.kr
+  - name: Woosung Choi (최우성)
+    position: PH.D. Course
+    research: Machine Learning, Large Scale Data Management, Moving object management
+    avatar: images/avatar/woosung-choi.jpg
+    email: ws_choi@korea.ac.kr
+    blog: http://intelligence.korea.ac.kr/members/wschoi/
+  - name: Taemin Lee (이태민)
+    position: PH.D. Course
+    research: Plagiarism detection, Text mining, Trajectory mining
+    avatar: images/avatar/taemin-lee.jpg
+    email: persuade@gmail.com
+    blog: http://tm.dataknow.net
+  - name: Gromyko Diana
+    position: PH.D. Course
+    research: Trajectory pattern mining, Spatio-temporal query processing
+    avatar: images/avatar/gromyko-diana.png
+    email: dialen AT hanmail.net
+  - name: Kyoung Seok Hyun (현경석)
+    position: PH.D. Course
+    research: Spatio-temporal database, Indexing & query processing
+    avatar: images/avatar/kyoungseok-hyun.png
+    email: ks_hyun AT korea.ac.kr
+  - name: TaeHyung Lim(임태형)
+    position: PH.D. Course
+    avatar: images/avatar/noface.png
+    email: th_lim AT korea.ac.kr
+  - name: MinSeok Kim (김민석)
+    position: PH.D. Course
+    avatar: images/avatar/minseok-kim.jpg
+    email: rlaalstjr47 AT korea.ac.kr
+  - name: HyunDo Jung(정현도)
+    position: M.S. Course
+    research: Natural Language Processing, Information Retrieval
+    avatar: images/avatar/hyundo-jung.png
+    email: hd_jung AT korea.ac.kr
+  - name: Jaehwa Chung (정재화)
+    position: PH.D. Alumni
+    currently: Korea National Open University
+    avatar: images/avatar/jaehwa-chung.jpg
+    email: jaehwachung AT knou.ac.kr
+    blog: http://cs.knou.ac.kr/~jaehwachung/
+  - name: Kinam Park (박기남)
+    position: PH.D. Alumni
+    currently: Soonchunhyang University
+    avatar: images/avatar/kinam-park.png
+    email: spknn AT sch.ac.kr
+  - name: Jeongmin Chae (채정민)
+    position: PH.D. Alumni
+    research: Text mining, Natural Language Processing
+    currently: Korea University
+    avatar: images/avatar/jeongmin-chae.png
+    email: onacloud AT gmail.com
+    blog: http://tm.withcat.net
+  - name: Jongho Jeon (전종호)
+    position: PH.D. Alumni
+    currently: KRIVET
+    avatar: images/avatar/noface.png
+    email: mulbit AT krivet.re.kr
+  - name: Jeongmin Kang (강정민)
+    position: PH.D. Alumni
+    currently: ETRI
+    avatar: images/avatar/jeongmin-kang.jpg
+    email: ws_choi@korea.ac.kr
+  - name: Younghee Jung (정영희)
+    position: PH.D. Alumni
+    research: Text mining, Question/Answering System
+    avatar: images/avatar/younghee-jung.png
+    email: coolof AT nate.com
+  - name: KyoungHo Jung (정경호)
+    position: PH.D. Alumni
+    research: Mobile Database Management
+    avatar: images/avatar/kyoungho-jung.png
+    email: kyounghjung AT naver.com
+  - name: Hongjun Jang (장홍준)
+    position: PH.D. Alumni
+    research: Large Scale Data Management, Spatial Databases
+    avatar: images/avatar/hongjun-jang.png
+    email: jhjsun AT naver.com
+    blog: http://cafe.naver.com/sharingjava
+  - name: JeongEun Kim (김정은)
+    position: PH.D. Alumni
+    avatar: images/avatar/noface.png
+    email: marite76 AT korea.ac.kr
+  - name: JeongIm Choi (최정임)
+    position: M.S. Alumni
+    currently: Korea University
+    avatar: images/avatar/noface.png
+    blog: http://intelligence.korea.ac.kr/members/wschoi/
+  - name: SeungEun Lee (이승은)
+    position: M.S. Alumni
+    currently: Kookmin Bank
+    avatar: images/avatar/noface.png
+  - name: JongHyeon Min(민종현)
+    position: M.S. Alumni
+    research: Machine Learning (Deep Learning), Data Mining, Big Data Analytics&Processing, Time Series Analysis
+    avatar: images/avatar/noface.png
+    email: jh_m AT korea.ac.kr
+  - name: KwangMin Lee (이광민)
+    position: M.S. Alumni
+    avatar: images/avatar/noface.png
+    email: kwangmin78 AT korea.ac.kr
 ---
 
 <div class="full">
   <div class="row">
     <div class="large-12 columns">
-      <h3>People</h3>
+      <h2>People</h2>
       <div class="spacing"></div>
     </div>
   </div>
+  {% for member in page.members %} {% assign remainder = forloop.index | modulo:
+  4 %} {% if remainder == 1 %}
   <div class="row">
-    {% for member in page.members %}
-    <div class="small-6 medium-3 large-3 columns">
+    {% endif %}
+    <div class="small-12 medium-3 large-3 columns">
       <div class="mod modTeamMember style-2">
         <div class="member">
           <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
-          <div class="overlay">
-            <ul class="socials">
-              {% for social in member.socials %}
-              <li>
-                <a href="{{social.url}}">
-                  <i class="{{social.icon_class}}"></i>
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
         </div>
         <h3>{{member.name}}</h3>
         <p class="position">{{member.position}}</p>
-        <p>{{member.desc}}</p>
+        {% if member.research %}
+        <h5>Research Field</h5>
+        <p class="desc">{{member.research}}</p>
+        {% endif %} {% if member.currently %}
+        <h5>Currently</h5>
+        <p class="desc">{{member.currently}}</p>
+        {% endif %} {% if member.email %}
+        <div class="link">
+          <a href="mailto:{{member.email}}">
+            <i class="icon fa fa-envelope"></i>
+            {{member.email}}
+          </a>
+        </div>
+        {% endif %}{% if member.blog %}
+        <div class="link">
+          <a href="mailto:{{member.blog}}">
+            <i class="icon fa fa-home"></i>
+            {{member.blog}}
+          </a>
+        </div>
+        {% endif %}
         <div class="two spacing"></div>
       </div>
     </div>
-    {% endfor %}
+    {% if remainder == 0 %}
   </div>
+  {% endif %} {% endfor %}
   <div class="three spacing"></div>
 </div>

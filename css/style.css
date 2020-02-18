@@ -3033,17 +3033,18 @@ body {
   overflow: hidden;
   margin-bottom: 20px;
 }
-.modTeamMember ul {
-  margin: 0;
+.modTeamMember h5 {
+  margin-bottom: 5px;
 }
-.modTeamMember ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 8px;
+.modTeamMember desc {
+  line-height: 1.4rem;
+}
+.modTeamMember i {
+  margin-right: 4px;
 }
 .modTeamMember ul i {
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
   border-radius: 18px;
@@ -3053,38 +3054,16 @@ body {
   font-size: 1.125rem;
   line-height: 2.5rem;
 }
+.modTeamMember .avatar {
+  border-radius: 999px;
+  width: 200px;
+  height: 200px;
+}
+.modTeamMember .link a {
+  word-break: break-all;
+}
 .modTeamMember img {
   width: 100%;
-}
-.modTeamMember .overlay {
-  opacity: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  text-align: center;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 100%;
-}
-.modTeamMember .overlay .intro {
-  position: relative;
-  top: 50%;
-  margin-top: -60px;
-}
-.modTeamMember .overlay h3 {
-  margin-bottom: 10px;
-}
-.modTeamMember .overlay p {
-  font-style: italic;
-  margin-bottom: 30px;
-}
-.modTeamMember .member:hover .overlay {
-  opacity: 1;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  top: 0;
 }
 
 .modTeamMember.style-2 h3 {
@@ -3369,41 +3348,8 @@ body {
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 60em) {
-  .modTeamMember .overlay {
-    opacity: 1;
-    background-color: rgba(255, 255, 255, 0.8);
-    top: 0;
-  }
-  .modTeamMember .overlay .intro {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 60%;
-  }
-  .modTeamMember .overlay h3 {
-    margin-bottom: 3px;
-  }
-  .modTeamMember .overlay p {
-    margin-bottom: 10px;
-  }
-  .modTeamMember ul i {
-    width: 24px;
-    height: 24px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
-    border-radius: 12px;
-    font-size: 1rem;
-    line-height: 1.8rem;
-  }
-
-  .modTeamMember.style-2 .overlay {
-    background-color: rgba(255, 255, 255, 0.7);
-  }
-  .modTeamMember.style-2 .overlay ul.socials {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    margin-top: -18px;
+  .modTeamMember {
+    text-align: center;
   }
 
   .parallax {

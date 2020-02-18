@@ -10,20 +10,18 @@ layout: news
   </div>
   <div class="content">
     <p class="info">
-      <span>{{page.date | date: "%B %d, %Y" }}</span>
-      /
+      <span>{{page.date | date: "%Y.%m.%d" }}</span>
+      {% if page.author %} /
       <span>
         by
         <a href="">{{page.author}}</a>
       </span>
-      /
-      <span>
-        In {% for cat in page.categories %}
-        <a href="#">{{cat}}</a>
-        {% unless forloop.last %} , {% endunless %} {% endfor %}
-      </span>
+      {% endif %}
     </p>
     <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+    <div class="spacing"></div>
+    <hr />
+    <div class="two spacing"></div>
     {{content}}
   </div>
 </div>

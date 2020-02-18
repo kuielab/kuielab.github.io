@@ -3067,7 +3067,7 @@ body {
 }
 .modTeamMember.style-2 p.position {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-size: 0.8rem;
 }
 .modTeamMember.style-2 .overlay {

@@ -4,7 +4,6 @@ layout: post
 categories: [seminar]
 date: 2019-07-16
 author:
-images:
 ---
 
 첫 주 세미나 내용에 대한 보충 자료입니다.

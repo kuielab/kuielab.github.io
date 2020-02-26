@@ -4,7 +4,6 @@ layout: post
 categories: [seminar]
 date: 2019-03-01
 author:
-images:
 ---
 
 ## 2019 1분기 NLP with Deep Learning 세미나 내용 요약

@@ -4,7 +4,6 @@ layout: post
 categories: [seminar]
 date: 2019-07-22
 author:
-images:
 ---
 
 2019학년도 여름 세미나 2주차 내용입니다.

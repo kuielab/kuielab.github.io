@@ -19,6 +19,10 @@
   font-weight: bold;
 }
 
+.ku-logo {
+  width: 140px;
+}
+
 /*some basic settings */
 a {
   color: #f9ce06;

@@ -1,12 +1,15 @@
 # Site settings
 title: IE LAB
-email: ws_choi@korea.ac.kr
-address: Lyceum 321B, KOREA UNIVERSITY, Anam-ro 145, Seongbuk-gu, Seoul, Korea
-phone: +82 010-0000-0000 # TODO 번호 수정 필요
+email: jsy@korea.ac.kr
+address: 310, Aegineungsaenghwalgwan, 145, Anam-ro, Seongbuk-gu, Seoul, Republic of Korea
+address_ko: 서울특별시 성북구 안암로 145 고려대학교 애기능생활관 310호
+address_google_map_link: https://goo.gl/maps/XMtXSx7pBe9tCzwU6
+phone: +82)2-3290-2394, +82)2-3290-2683
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 

@@ -988,11 +988,11 @@ body.screenshot {
   padding: 50px 40px;
 }
 .modBlogPost.big .info {
-  font-size: 0.78571rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #ccc;
   margin-bottom: 4px;
+  margin-top: 8px;
 }
 .modBlogPost.big .excerpt {
   margin-bottom: 4px;
@@ -1008,6 +1008,7 @@ body.screenshot {
 }
 .modBlogPost.big h4 {
   font-size: 1.7rem;
+  margin-bottom: 4px;
 }
 .modBlogPost.big h5 {
   font-size: 1.15rem;

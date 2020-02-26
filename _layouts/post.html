@@ -9,16 +9,15 @@ layout: news
     {% endfor %}
   </div>
   <div class="content">
+    <h3><a href="{{page.url}}">{{page.title}}</a></h3>
     <p class="info">
-      <span>{{page.date | date: "%Y.%m.%d" }}</span>
-      {% if page.author %} /
-      <span>
-        by
-        <a href="">{{page.author}}</a>
-      </span>
+      <div>{{page.date | date: "%Y.%m.%d" }}</div>
+      {% if page.author %}
+      <div>
+        by <b>{{page.author}}</b>
+      </div>
       {% endif %}
     </p>
-    <h3><a href="{{page.url}}">{{page.title}}</a></h3>
     <div class="spacing"></div>
     <hr />
     <div class="two spacing"></div>

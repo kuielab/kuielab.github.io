@@ -201,6 +201,12 @@ ul.shortcode-list i {
   border: 2px solid #fff;
 }
 
+.button.color {
+  color: #000;
+  background: #f9ce06;
+  border: 2px solid #f9ce06;
+}
+
 .button:hover {
   color: #000;
   background-color: #fff;

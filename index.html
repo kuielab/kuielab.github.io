@@ -138,7 +138,7 @@ testimonials:
   <div class="three spacing"></div>
 </div>
 
-<div class="full" style="background: #f5f5f5">
+<!-- <div class="full" style="background: #f5f5f5">
   <div class="row">
     <div class="large-12 columns">
       <h2>Our Research</h2>
@@ -160,9 +160,12 @@ testimonials:
     </div>
   </div>
   <div class="four spacing"></div>
-</div>
+</div> -->
 
 <div class="full">
+  {% assign category = "on-going-research" %} {% assign recentsOnGoingResearch =
+  site.categories[category] | sort: "date" | reverse %}
+
   <div class="row">
     <div class="medium-6 columns">
       <img
@@ -170,53 +173,32 @@ testimonials:
         width="500"
         height="340"
         alt=""
-        src="images/@stock/macbook.png"
+        src="{{ recentsOnGoingResearch[0].image | default: '/images/@stock/circle-1.png' }}"
       />
     </div>
     <div class="medium-6 columns">
-      <div class="spacing"></div>
       <h4 style="color: #999">Ongoing Research Topic</h4>
-      <h2>Research 1</h2>
+      <h2>{{recentsOnGoingResearch[0].title}}</h2>
       <div class="spacing"></div>
       <p>
-        This is the text about your Lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-        dolore magna aliquam erat volutpat consectetuer sit amet magna
-        adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-        erat volutpat consectetuer sit amet magna adipiscing.
+        <p>{{recentsOnGoingResearch[0].excerpt}}</p>
       </p>
       <div class="spacing"></div>
-      <a class="button small" href="#">Learn more</a>
+      <a class="button small color" href="{{recentsOnGoingResearch[0].url}}">Learn more</a>
     </div>
   </div>
   <div class="four spacing"></div>
+
   <div class="row">
     <div class="medium-6 columns">
-      <div class="two spacing"></div>
       <h4 style="color: #999">Ongoing Research Topic</h4>
-      <h2>Research 2</h2>
+      <h2>{{recentsOnGoingResearch[1].title}}</h2>
       <div class="spacing"></div>
-      <ul class="shortcode-list">
-        <li>
-          <i class="fa fa-check"></i>
-          This is a check list item, htis is a check list item
-        </li>
-        <li>
-          <i class="fa fa-check"></i>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit ipsum
-        </li>
-        <li>
-          <i class="fa fa-check"></i>
-          Sed diam nonummy nibh euismod tincidunt ut, lorem ipsum dolor sit amet
-        </li>
-        <li>
-          <i class="fa fa-check"></i>
-          Dolore magna aliquam erat volutpat consectetu amet magna adipiscing
-        </li>
-      </ul>
+      <p>
+        <p>{{recentsOnGoingResearch[1].excerpt}}</p>
+      </p>
       <div class="spacing"></div>
-      <a class="button small" href="#">Learn more</a>
+      <a class="button small color" href="{{recentsOnGoingResearch[1].url}}">Learn more</a>
     </div>
     <div class="medium-6 columns">
       <img
@@ -224,7 +206,7 @@ testimonials:
         width="500"
         height="400"
         alt=""
-        src="images/@stock/circle-1.png"
+        src="{{recentsOnGoingResearch[1].image | default: '/images/@stock/circle-1.png' }}"
       />
     </div>
   </div>

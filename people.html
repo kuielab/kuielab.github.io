@@ -14,15 +14,15 @@ skills:
 testimonials:
   - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
     author: David White
-    position: Designer at Huglab
+    position: Designer@Huglab
     avatar: images/@stock/author-avatar-1.png
   - text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing."
     author: David White
-    position: Designer at Huglab
+    position: Designer@Huglab
     avatar: images/@stock/author-avatar-2.png
   - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
     author: David White
-    position: Designer at Huglab
+    position: Designer@Huglab
     avatar: images/@stock/author-avatar-3.png
 
 members:
@@ -46,48 +46,48 @@ members:
     position: PH.D. Course
     research: Trajectory pattern mining, Spatio-temporal query processing
     avatar: images/avatar/gromyko-diana.png
-    email: dialen AT hanmail.net
+    email: dialen@hanmail.net
   - name: Kyoung Seok Hyun (현경석)
     position: PH.D. Course
     research: Spatio-temporal database, Indexing & query processing
     avatar: images/avatar/kyoungseok-hyun.png
-    email: ks_hyun AT korea.ac.kr
+    email: ks_hyun@korea.ac.kr
   - name: TaeHyung Lim(임태형)
     position: PH.D. Course
     avatar: images/avatar/noface.png
-    email: th_lim AT korea.ac.kr
+    email: th_lim@korea.ac.kr
   - name: MinSeok Kim (김민석)
     position: PH.D. Course
     avatar: images/avatar/minseok-kim.jpg
-    email: rlaalstjr47 AT korea.ac.kr
+    email: rlaalstjr47@korea.ac.kr
   - name: HyunDo Jung(정현도)
     position: M.S. Course
     research: Natural Language Processing, Information Retrieval
     avatar: images/avatar/hyundo-jung.png
-    email: hd_jung AT korea.ac.kr
+    email: hd_jung@korea.ac.kr
   - name: Jaehwa Chung (정재화)
     position: PH.D. Alumni
     currently: Korea National Open University
     avatar: images/avatar/jaehwa-chung.jpg
-    email: jaehwachung AT knou.ac.kr
+    email: jaehwachung@knou.ac.kr
     blog: http://cs.knou.ac.kr/~jaehwachung/
   - name: Kinam Park (박기남)
     position: PH.D. Alumni
     currently: Soonchunhyang University
     avatar: images/avatar/kinam-park.png
-    email: spknn AT sch.ac.kr
+    email: spknn@sch.ac.kr
   - name: Jeongmin Chae (채정민)
     position: PH.D. Alumni
     research: Text mining, Natural Language Processing
     currently: Korea University
     avatar: images/avatar/jeongmin-chae.png
-    email: onacloud AT gmail.com
+    email: onacloud@gmail.com
     blog: http://tm.withcat.net
   - name: Jongho Jeon (전종호)
     position: PH.D. Alumni
     currently: KRIVET
     avatar: images/avatar/noface.png
-    email: mulbit AT krivet.re.kr
+    email: mulbit@krivet.re.kr
   - name: Jeongmin Kang (강정민)
     position: PH.D. Alumni
     currently: ETRI
@@ -97,27 +97,26 @@ members:
     position: PH.D. Alumni
     research: Text mining, Question/Answering System
     avatar: images/avatar/younghee-jung.png
-    email: coolof AT nate.com
+    email: coolof@nate.com
   - name: KyoungHo Jung (정경호)
     position: PH.D. Alumni
     research: Mobile Database Management
     avatar: images/avatar/kyoungho-jung.png
-    email: kyounghjung AT naver.com
+    email: kyounghjung@naver.com
   - name: Hongjun Jang (장홍준)
     position: PH.D. Alumni
     research: Large Scale Data Management, Spatial Databases
     avatar: images/avatar/hongjun-jang.png
-    email: jhjsun AT naver.com
+    email: jhjsun@naver.com
     blog: http://cafe.naver.com/sharingjava
   - name: JeongEun Kim (김정은)
     position: PH.D. Alumni
     avatar: images/avatar/noface.png
-    email: marite76 AT korea.ac.kr
+    email: marite76@korea.ac.kr
   - name: JeongIm Choi (최정임)
     position: M.S. Alumni
     currently: Korea University
     avatar: images/avatar/noface.png
-    blog: http://intelligence.korea.ac.kr/members/wschoi/
   - name: SeungEun Lee (이승은)
     position: M.S. Alumni
     currently: Kookmin Bank
@@ -126,11 +125,11 @@ members:
     position: M.S. Alumni
     research: Machine Learning (Deep Learning), Data Mining, Big Data Analytics&Processing, Time Series Analysis
     avatar: images/avatar/noface.png
-    email: jh_m AT korea.ac.kr
+    email: jh_m@korea.ac.kr
   - name: KwangMin Lee (이광민)
     position: M.S. Alumni
     avatar: images/avatar/noface.png
-    email: kwangmin78 AT korea.ac.kr
+    email: kwangmin78@korea.ac.kr
 ---
 
 <div class="full">
@@ -148,7 +147,9 @@ members:
       <div class="small-12 medium-3 large-3 columns">
         <div class="mod modTeamMember style-2">
           <div class="member">
-            <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+            <a href="{{member.blog}}" target="_blank"
+              ><img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}"
+            /></a>
           </div>
           <h3>{{member.name}}</h3>
           <p class="position">{{member.position}}</p>
@@ -167,7 +168,7 @@ members:
           </div>
           {% endif %}{% if member.blog %}
           <div class="link">
-            <a href="mailto:{{member.blog}}">
+            <a href="{{member.blog}}" target="_blank">
               <i class="icon fa fa-home"></i>
               {{member.blog}}
             </a>

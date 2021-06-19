@@ -23,6 +23,12 @@
   width: 140px;
 }
 
+.position-tab-item:not(:last-child):after {
+  padding: 0 8px;
+  content: " / ";
+  color: #cfcfcf;
+}
+
 /*some basic settings */
 a {
   color: #f9ce06;
@@ -971,7 +977,7 @@ body.screenshot {
   margin-bottom: 5px;
 }
 .modBlogPost img {
-  width: 100%;
+  width: auto;
 }
 .modBlogPost a:hover img {
   -moz-transition-duration: 0.5s;
@@ -3035,6 +3041,9 @@ body {
 .modStylePanel a#pattern-10 {
   background: url(../images/pattern-10.png) left top no-repeat;
 }
+.columns.member-item {
+  float: left !important;
+}
 .modTeamMember .member {
   position: relative;
   overflow: hidden;
@@ -3617,4 +3626,20 @@ body {
   .modFullscreenSlider .fullscreen_slideshow .video_wrap {
     display: none;
   }
+}
+
+/* slide */ 
+.slide {
+  position: relative;
+  padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+  height: 0;
+  overflow: hidden;
+}
+
+.slide iframe {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

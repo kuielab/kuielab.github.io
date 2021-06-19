@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Data mining & Knowledge Discovery, Distributed and Parallel Query Processing,
   Deep Learning, Spatio-temporal Data analysis, and Biomedical Text Mining.
 
-baseurl: "http://intelligence.korea.ac.kr/" # the subpath of your site, e.g. /blog/
+baseurl: "https://kuielab.github.io/" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings

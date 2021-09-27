@@ -48,6 +48,8 @@ date: 2021-04-28
 - 0525 [MLP-Mixer](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/2021-05-25-MLPMixer_jinsung.pdf) - 김진성 
 - 0824 [VAE](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/tree/master/fall_2020/1006_VAE_Jinsung) - 김진성
 - 0831 [InfoNCE](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/InfoNCE.pdf) - 정영석
-
+- 0907 MetaLearning - 김진성
+- 0914 Optimizer & Initializer - 정재영
+- 0928 [Voice Conversion Survey](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/VC_survey.pdf) - 정영석
 ---
 ![](https://pbs.twimg.com/media/Ef4CZMGUYAA-SOY?format=png&name=240x240)

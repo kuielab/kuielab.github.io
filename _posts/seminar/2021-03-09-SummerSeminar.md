@@ -36,9 +36,10 @@ date: 2021-04-28
 - 0525 MNIST classification - 이종수
 - 0525 [CNN](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/%EC%9D%B4%EC%A4%80%ED%98%95/CNN_MNIST.ipynb) - 이준형
 - 0615 RNN,LSTM - 이종수
-- 0824 cs231n assignment1 KNN - 이준형
-- 0907 cs231n assignment1 SVM - 이종수
-- 0928 cs231n assignment1 Softmax - 이준형
+- cs231n assignment1 
+	- 0831 KNN - 이준형
+	- 0907 SVM - 이종수
+	- 0928 Softmax - 이준형
 
 ---
 

@@ -39,6 +39,7 @@ date: 2021-04-28
 - 0824 cs231n assignment1 KNN - 이준형
 - 0907 cs231n assignment1 SVM - 이종수
 - 0928 cs231n assignment1 Softmax - 이준형
+
 ---
 
 ### 논문 발표
@@ -58,5 +59,6 @@ date: 2021-04-28
 - 0907 MetaLearning - 김진성
 - 0914 Optimizer & Initializer - 정재영
 - 0928 [Voice Conversion Survey](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/VC_survey.pdf) - 정영석
+
 ---
 ![](https://pbs.twimg.com/media/Ef4CZMGUYAA-SOY?format=png&name=240x240)

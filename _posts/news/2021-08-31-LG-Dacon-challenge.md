@@ -14,6 +14,6 @@ The main task of this competition is image quality improvement. The participants
 
 They proposed [FiLM square](https://github.com/kuielab/mdx-net), an architecture based on Fully Convolutional U-Net network and FiLM(Feature-wise Linear Modulation). After the presentation they finally ranked  6th at that competition.
 
-All The proposed models will be fully open-sourced.
+All the proposed models will be fully open-sourced.
 
 Congrats!

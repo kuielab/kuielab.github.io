@@ -10,7 +10,7 @@ date: 2021-04-28
 요청하시는 분은 세미나 단톡방에 초대해드립니다.
 
 
-- 매주 화요일 19시!
+- 매주 목요일 19시!
 	- ([행아웃 참여하기](https://meet.google.com/qmh-tzbp-vha))
 
 - [발표자료 저장소](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/tree/master/2021_Summer) 발표자료 제발 깃헙에 좀 올리세요...
@@ -25,13 +25,20 @@ date: 2021-04-28
 ##### 링크
 
 - [PyTorch로 시작하는 딥 러닝 입문](https://wikidocs.net/53383)
-- [선형회귀](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/PyTorch_%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80%EB%B0%9C%ED%91%9C.ipynb)
-- [로지스틱회귀](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/PyTorch_%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1%ED%9A%8C%EA%B7%80%EB%B0%9C%ED%91%9C.ipynb)
+- [Stanford cs231n](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk)
+
 
 ##### 발표내용 
 
-- 0504 Linear Regression - 이준형 
-
+- 0504 Linear Regression - 이준형
+- 0511 Logistic Regression - 이종수
+- 0518 Artifical Neural Network - 이준형
+- 0525 MNIST classification - 이종수
+- 0525 CNN - 이준형
+- 0615 RNN,LSTM - 이종수
+- 0824 cs231n assignment1 KNN - 이준형
+- 0907 cs231n assignment1 SVM - 이종수
+- 0928 cs231n assignment1 Softmax - 이준형
 ---
 
 ### 논문 발표

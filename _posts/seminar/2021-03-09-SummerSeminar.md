@@ -30,11 +30,11 @@ date: 2021-04-28
 
 ##### 발표내용 
 
-- 0504 Linear Regression - 이준형
+- 0504 [Linear Regression](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/%EC%9D%B4%EC%A4%80%ED%98%95/Linear_Regression.ipynb) - 이준형
 - 0511 Logistic Regression - 이종수
-- 0518 Artifical Neural Network - 이준형
+- 0518 [Artifical Neural Network](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/%EC%9D%B4%EC%A4%80%ED%98%95/MLP_XOR.ipynb) - 이준형
 - 0525 MNIST classification - 이종수
-- 0525 CNN - 이준형
+- 0525 [CNN](https://github.com/Intelligence-Engineering-LAB-KU/Seminar/blob/master/2021_Summer/%EC%9D%B4%EC%A4%80%ED%98%95/CNN_MNIST.ipynb) - 이준형
 - 0615 RNN,LSTM - 이종수
 - 0824 cs231n assignment1 KNN - 이준형
 - 0907 cs231n assignment1 SVM - 이종수

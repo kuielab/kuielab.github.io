@@ -1,5 +1,5 @@
 ---
-title: "We won 1st(Leaderboard B) and 3rd place(Leaderboard A) in Sound Demixing Challenge 2023 (SONY)"
+title: "We won 1st place(Leaderboard B) and 3rd place(Leaderboard A) in Sound Demixing Challenge 2023 (SONY)"
 layout: post
 categories: [news]
 ---

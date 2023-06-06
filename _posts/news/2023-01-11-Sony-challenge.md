@@ -1,13 +1,16 @@
 ---
-title: "We are currently participating in Sound Demixing Challenge 2023 (SONY)"
+title: "We won 1st(Leaderboard B) and 3rd place(Leaderboard A) in Sound Demixing Challenge 2023 (SONY)"
 layout: post
 categories: [news]
 ---
 
-Our IELab is participating in [Music Demixing Tract: Build A System To Perform Audio Source Separation](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23).
+IELab participated in [Music Demixing Tract: Build A System To Perform Audio Source Separation](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23).
 
-![](/images/sony.png)
+![](/images/A.png)
+![](/images/B.png)
 
-- 🏆 [Leaderboard](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23/leaderboards)
+
+
+- 🏆 [Leaderboard]([https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23/leaderboards](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23/leaderboards?challenge_leaderboard_extra_id=1285&challenge_round_id=1278))
 
 Main Task: "The previous edition of the MDX task focused on the basic formulation of music source separation into four instruments: the submitted systems were requested to separate a song into vocals, bass, drums, and others. This year, we extend the original formulation by requiring four instrument separation systems that are robust to specific and realistic issues in the training data." -Sony

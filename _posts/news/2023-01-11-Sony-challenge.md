@@ -6,11 +6,11 @@ categories: [news]
 
 IELab participated in [Music Demixing Tract: Build A System To Perform Audio Source Separation](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23).
 
-Leaderboard B:
+- Leaderboard B:
 ![](/images/B.png)
 
 
-Leaderboard A:
+- Leaderboard A:
 ![](/images/A.png)
 
 

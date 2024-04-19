@@ -4,7 +4,7 @@ layout: post
 categories: [news]
 ---
 
-Woosung Choi, Minseok Kim, Jinsung Kim and YeongSeok Jeong participated in [LG-Dacon Image Quality Improvement challenge](https://dacon.io/competitions/official/235746/overview/rules).
+Our Lab participated in [LG-Dacon Image Quality Improvement challenge](https://dacon.io/competitions/official/235746/overview/rules).
 
 ![](/images/FiLM_square.png)
 

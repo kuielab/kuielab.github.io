@@ -4,7 +4,7 @@ layout: post
 categories: [news]
 ---
 
-IELab participated in [Music Demixing Tract: Build A System To Perform Audio Source Separation](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23).
+Minseok Kim and Jun Hyung Lee participated in [Music Demixing Tract: Build A System To Perform Audio Source Separation](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23).
 
 - Leaderboard B:
 ![](/images/B.png)

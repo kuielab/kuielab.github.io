@@ -7,7 +7,7 @@ categories: [news]
 Minseok Kim and Jun Hyung Lee collaborated paper with Sony has been accepted to TISMIR(Transaction of the International Society for Music Infromation and Retrieval)
 
 - Published Paper:
-![](/images/tismir1.png)
+![](/images/tismir2.png)
 
 - Our section of the paper:
 ![](/images/tismirielab.png)
